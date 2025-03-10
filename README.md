@@ -20,5 +20,6 @@ The following **required** functionality is completed:
 
 
 Here's a walkthrough of implemented required features:
+<img src="https://i.postimg.cc/T1JLLcjg/Flashcards.gif" title="Video Walkthrough" width="600" alt="Video Walkthrough" />
 
-<img src='https://i.imgur.com/NXLfNXI.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+GIF created with Postimages
