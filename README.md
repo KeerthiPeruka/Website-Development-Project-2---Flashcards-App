@@ -16,6 +16,14 @@ The following **required** functionality is completed:
 - [x] **Clicking on the card shows the corresponding component of the information pair**
 - [x] **Clicking the next button displays a random new card**
 
+## Video Walkthrough
+
+Here's a walkthrough of implemented required features:
+<img src="https://i.postimg.cc/6p9fsR1B/Video.gif" title="Video Walkthrough" width="600" alt="Video Walkthrough" />
+
+GIF created with Postimages
+
+
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/OWalYXs.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
