@@ -18,12 +18,7 @@ The following **required** functionality is completed:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
-<img src="https://i.postimg.cc/6p9fsR1B/Video.gif" title="Video Walkthrough" width="600" alt="Video Walkthrough" />
-
-GIF created with Postimages
-
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/a/OWalYXs.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/NXLfNXI.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
