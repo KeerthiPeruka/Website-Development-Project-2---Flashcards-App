@@ -5,7 +5,7 @@ import Flashcard from './Flashcard';
 const App = () => {
   const flashcards = [
     {question: "What fruit is known for having seeds on the outside?", answer: "Strawberry" },
-    {question: "Is tomato a fruit or vegetable?", answer: "Fruit (Berry)" },
+    {question: "Is tomato a fruit or vegetable?", answer: "Fruit" },
     {question: "Which fruit is known for its high vitamin C content?", answer: "Orange" },
     {question: "What is the world's most expensive spice?", answer: "Saffron" },
     {question: "Which country has developed French Fries?", answer: "Beligum" },
@@ -23,6 +23,12 @@ const App = () => {
   //flip state of the card
   const[isFlipped, setIsFlipped] = useState(false);
 
+  //user answer
+  const[answer, setAnswer] = useState("");
+
+  //user feedback 
+  const[feedback, setFeedback] = useState("");
+
   //move to the next card
   const handleNextCard = () => {
     if(currentIndex < flashcards.length - 1)
@@ -34,6 +40,8 @@ const App = () => {
       setCurrentIndex(0);
     }
     setIsFlipped(false);
+    setAnswer("");
+    setFeedback("");
   };
 
   //move to the previous card 
@@ -47,6 +55,8 @@ const App = () => {
       setCurrentIndex(flashcards.length - 1);
     }
     setIsFlipped(false);
+    setAnswer("");
+    setFeedback("");
   };
 
   //flip the card
@@ -54,6 +64,17 @@ const App = () => {
   const handleCardClick = () => {
     setIsFlipped(!isFlipped);
   };
+
+  const handleCheckAnswer = () => {
+    if (answer.trim().toLowerCase() === flashcards[currentIndex].answer.toLowerCase())
+    {
+      setFeedback("Correct!");
+    }
+    else
+    {
+      setFeedback("Incorrect! Try again.");
+    }
+  }
 
   return (
     <div className = "app">
@@ -71,10 +92,22 @@ const App = () => {
         />
       </div>
 
+      <p> Guess the answer here : </p>
+
+      <input
+        type = "text"
+        placeholder="Type your answer..."
+        value ={answer}
+        onChange = {(e) => setAnswer(e.target.value)}
+      />
+
+      <button onClick = {handleCheckAnswer} className="check-button">Check Answer</button>
+
+      <p>{feedback}</p>
+
       <div className = "arrows">
         <button onClick={handlePreviousCard} className ="arrow-button">Previous</button>
         <button onClick={handleNextCard} className = "arrow-button">Next</button>
-
       </div>
     </div>
   );

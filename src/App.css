@@ -22,3 +22,16 @@
 .arrow-button:hover{
   color : darkgrey;
 }
+
+.check-button{
+  font-size: 15px;
+  background-color: darkgrey;
+  padding : 10px;
+}
+
+input[type="text"]
+{
+  width : 200px;
+  height : 40px;
+  font-size : 15px;
+}
