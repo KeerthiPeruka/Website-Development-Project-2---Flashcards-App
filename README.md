@@ -26,9 +26,6 @@ The following **required** functionality is completed:
 Here's a walkthrough of implemented required features:
 
 Project 2 implementation : 
-<img src="https://i.postimg.cc/T1JLLcjg/Flashcards.gif" title="Video Walkthrough" height= "300" width="350" alt="Video Walkthrough" />
-
-Project 3 implementation : 
-<img src="https://i.postimg.cc/Kzh2RRpZ/Food-Trivia-Flashcards.gif" title="Video Walkthrough" height= "300" width="350" alt="Video Walkthrough" />
+<img src="https://i.postimg.cc/Prv7VW0t/nasa.gif" title="Video Walkthrough" height= "300" width="350" alt="Video Walkthrough" />
 
 GIF created with Postimages
